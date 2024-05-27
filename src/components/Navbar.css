@@ -1,0 +1,40 @@
+.navbar{
+    width: 210%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 20px;
+    background-color: #ffffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.navbar h2{
+    color:#012970;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navbar input{
+    width:  320px;
+    height: 100%;
+    padding: 9px 39px 9px 9px;
+    border-radius: 3px ;
+    border: 1px solid #659eff;
+    opacity: 0px;
+
+}
+.navbar input ::placeholder{
+    color: #757575;
+}
+.account{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 16px;
+
+}
+.account img{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}

@@ -1,0 +1,13 @@
+.container{
+    width: 100vh;
+    height: 100vh;
+    
+}
+.elements{
+    width: 100%;
+    height: 92.3vh;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: #F0F4FB;
+}

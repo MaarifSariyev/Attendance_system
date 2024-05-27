@@ -1,0 +1,80 @@
+.add-teacher{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    padding-inline: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.teacher-form{
+    width: 564px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background-color: white;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+}
+.teacher-form input{
+    border-radius: 6px;
+    padding: 8px;
+    border: 1px solid #CED4DA;
+
+}
+.teacher-form input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C757D;
+}
+
+.teacher-form p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #012970;
+}
+.input-form{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.teacher-form .input-form label{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+    gap: 5px;
+}
+.input-form .input-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.input-form .input-container label{
+    width: 50%;
+}
+.add-teacher .buttons{
+    width: 30%;
+    padding: 0px 8px;
+    display: flex;
+    gap: 16px;
+}
+.add-teacher .buttons .submit , .reset{
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+.submit{
+    background-color: #0D6EFD;
+}
+.reset{
+    background-color: #6C757D;
+}

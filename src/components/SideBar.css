@@ -1,0 +1,45 @@
+.sidebar{
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.sidebar-elements{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+}
+.sidebar-elements .tool {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0px 8px;
+    color: #012970;
+    padding: 10px 3px;
+}
+.sidebar-elements  .active{
+    color: #4154F1;
+    background-color:  #F6F9FF;
+    
+}
+.sidebar-elements p{
+    color: #899BBD;
+    font-size: 11px;
+    font-weight: 600;
+}
+.sidebar-elements .analyse , .manage{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 10px;
+}

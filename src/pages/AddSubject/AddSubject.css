@@ -1,0 +1,85 @@
+.add-subject{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    padding-inline: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.subject-form{
+    width: 564px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background-color: white;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+}
+.subject-form input{
+    border-radius: 6px;
+    padding: 8px;
+    border: 1px solid #CED4DA;
+
+}
+.subject-form input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C757D;
+}
+
+.subject-form p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #012970;
+}
+.link{
+    display: flex;
+    gap: 5px;
+}
+
+.input-form{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.subject-form .input-form label{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+    gap: 5px;
+}
+.input-form .input-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.input-form .input-container label{
+    width: 50%;
+}
+.add-subject .buttons{
+    width: 30%;
+    padding: 0px 8px;
+    display: flex;
+    gap: 16px;
+}
+.add-subject .buttons .submit , .reset{
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+.submit{
+    background-color: #0D6EFD;
+}
+.reset{
+    background-color: #6C757D;
+}
