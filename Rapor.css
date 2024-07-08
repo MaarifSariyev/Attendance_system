@@ -1,0 +1,76 @@
+.rapor{
+    width: 100%;
+    height: 100%;
+    padding-top: 33px;
+    padding-inline: 20px;
+    position: relative;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.rapor-generate-sheet{
+    height: 100px;
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    padding: 26px 16px ;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+.rapor-generate-sheet select {
+    width: 164px;
+    height: 58px;
+    border-radius: 6px;
+    border: 1px solid #CED4DA;
+    display: flex;
+    padding: 0px 10px;
+    color: #444444;
+   display: flex;
+   align-items: flex-end;
+   color: black;
+   font-size: 16px;
+   font-weight: 500;
+   
+}
+
+.rapor-generate-sheet button{
+    padding: 11px 15px;
+    border-radius: 8px;
+    background-color: #4154F1;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+.rapor .link-bar{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-bar span{
+    font-size: 24px;
+    font-weight: 550;
+    color: #4154F1;
+}
+.link-bar p{
+    font-size: 14px;
+    font-weight: 550;
+    color: #989797;
+}
+.link-bar p span{
+    color: #444444;
+    font-size: 14px;
+    font-weight: 550;
+}
+.rapor-generate-sheet label{
+    position: relative;
+    right: 160px;
+    color:#636161;
+    font-size: 16px;
+    font-weight: 400;
+    top: 13px;
+}

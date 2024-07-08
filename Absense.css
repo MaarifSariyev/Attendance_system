@@ -1,0 +1,128 @@
+.absense{
+    width: 100%;
+    height: 100%;
+    padding-top: 33px;
+    padding-inline: 20px;
+    position: relative;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.absense-table{
+    padding: 16px ;
+    border-radius: 8px ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.absense-search-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    
+}
+.absense-search-bar span{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #012970;
+}
+.absense-search-bar input{
+    width:  200px;
+    
+    padding: 9px 39px 9px 9px;
+    border-radius: 3px ;
+    border: 1px solid #767676;
+    opacity: 0px;
+}
+
+
+.absense .link-bar{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2px;
+}
+
+.link-bar span{
+    font-size: 24px;
+    font-weight: 550;
+    color: #4154F1;
+}
+.link-bar p{
+    font-size: 14px;
+    font-weight: 550;
+    color: #989797;
+}
+.link-bar p span{
+    color: #444444;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+
+
+
+
+
+
+.absense table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+ .absense td,.absense th {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-size: 13px;
+  }
+  .absense th{
+    background-color: #F6F6FE;
+    color: #444444;
+    font-weight: 700;
+    border-bottom: 2px solid #7D7D7D;
+  }
+  .absense td{
+    color: #7D7D7D;
+  }
+  a{
+    display: flex;
+    text-decoration: none;
+    animation: none;
+    color:  #012970;
+  }
+  .fontcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+  }
+  .fontcorrect{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2ECA6A;
+    color: white;
+    border-radius: 5px;
+  }
+  .fontwrong{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#FF4861;
+    color: white;
+    border-radius: 5px;
+  }
+  
+ 
+  
+
+
+  

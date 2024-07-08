@@ -1,0 +1,132 @@
+.subject{
+    width: 100%;
+    height: 100%;
+    padding-top: 33px;
+    padding-inline: 20px;
+    position: relative;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.subject-table{
+    padding: 16px ;
+    border-radius: 8px ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-height: 500px; 
+    overflow-y: auto; 
+    scrollbar-color: #012970 #f1f1f1; 
+    scrollbar-width: thin; 
+}
+.subject-table::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .subject-table::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 4px;
+  }
+  
+  .subject-table::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  }
+  
+  .subject-table::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+
+.subject-search-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    
+}
+.subject-search-bar span{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #012970;
+}
+.subject-search-bar input{
+    width:  200px;
+    
+    padding: 9px 39px 9px 9px;
+    border-radius: 3px ;
+    border: 1px solid #767676;
+    opacity: 0px;
+}
+
+
+.subject .link-bar{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 50px;
+}
+.link-bar button{
+    padding: 3px 6px;
+    background-color: #0D6EFD;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    border: none;
+}
+.link-bar button:hover{
+    transform: scale(1.02);
+}
+.link-bar span{
+    font-size: 24px;
+    font-weight: 550;
+    color: #4154F1;
+}
+.link-bar p{
+    font-size: 14px;
+    font-weight: 550;
+    color: #989797;
+}
+.link-bar p span{
+    color: #444444;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+
+
+
+
+
+
+.subject table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+ 
+  
+ .subject td,.subject th {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-size: 13px;
+  }
+  .subject th{
+    background-color: #F6F6FE;
+    color: #444444;
+    font-weight: 700;
+    border-bottom: 2px solid #7D7D7D;
+  }
+  .subject td{
+    color: #7D7D7D;
+  }
+ 
+  
+
+
+  
