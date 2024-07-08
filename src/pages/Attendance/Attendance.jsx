@@ -15,23 +15,25 @@ const Attendance = () => {
 
     <div className='attendance-generate-sheet'>
         <select name="Subject" id="subject">
-            <span>Subject</span>
             <option value="java">Advance Java</option>
             <option value="c++">C++</option>
             <option value="phyton">Phyton</option>
         </select>
+        <label htmlFor="Subject">Subject</label>
 
         <select name="Section" id="section">
             <option value="a">A</option>
             <option value="b">B</option>
             <option value="c">B</option>
         </select>
+        <label htmlFor="Section">Section</label>
 
         <select name="Date" id="date">
             <option value="1">2023/03/15</option>
             <option value=""></option>
             <option value=""></option>
         </select>
+        <label htmlFor="Date">Date</label>
 
 
          <button>Generate Sheet</button>

@@ -63,10 +63,11 @@
     border-collapse: collapse;
     width: 100%;
     display: flex;
-    gap: 24px;
+    gap: 5px;
     padding: 26px 16px ;
     border-radius: 5px;
     background-color: white;
+    position: relative;
 }
 .attendance-generate-sheet select {
     width: 164px;
@@ -74,8 +75,17 @@
     border-radius: 6px;
     border: 1px solid #CED4DA;
     display: flex;
+    align-items: flex-end;
     padding: 0px 10px;
     color: #444444;
+}
+.attendance-generate-sheet  label{
+  position: relative;
+  right: 160px;
+  color:#636161;
+  font-size: 16px;
+  font-weight: 400;
+  top: 13px;
 }
 .attendance-generate-sheet button{
     padding: 11px 15px;

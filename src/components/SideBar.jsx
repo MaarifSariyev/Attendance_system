@@ -1,50 +1,56 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import './SideBar.css'
 import { Link } from 'react-router-dom'
+import Dashboard from '@/pages/Dashboard/Dashboard';
+
 
 const SideBar = () => {
+
+    const [sidebar, setSidebar] = useState("Dashboard")
+    
+
   return (
     <div className='sidebar'>
         <div className='sidebar-elements'>
-            <div className='tool active'>
+            <div className={sidebar==="Dashboard"? "tool active" : "tool"}>
                 <Link to={'dashboard'}>
-                 <i class="fa-solid fa-chart-line" id='i'></i> <span >Dashboard</span>
+                 <i class="fa-solid fa-chart-line" id='i'></i> <span onClick={()=>setSidebar("Dashboard")}>Dashboard</span>
                  </Link>
             </div>
             <p>Analyse</p>
                 <div className='analyse'>
-                    <div className='tool'>
-                        <i class="fa-regular fa-file-lines"></i> <Link to={'attendance'}> <span >Attendance</span></Link>
+                    <div className={sidebar==="Attendance"? "tool active" : "tool"}>
+                        <i class="fa-regular fa-file-lines"></i> <Link to={'attendance'}> <span onClick={()=>setSidebar("Attendance")} >Attendance</span></Link>
                     </div>
-                    <div className='tool'>
+                    <div className={sidebar==="Absense"? "tool active" : "tool"}>
                     <i class="fa-solid fa-file-circle-xmark"></i>
                         <Link to={'absense'}>
-                        <span >Absence</span>
+                        <span onClick={()=>setSidebar("Absense")} >Absense</span>
                          </Link>
                     </div>
-                    <div className='tool'>
-                        <i class="fa-solid fa-file-signature"></i> <Link to={'rapor'}><span >Report</span></Link> 
+                    <div className={sidebar==="Report"? "tool active" : "tool"}>
+                        <i class="fa-solid fa-file-signature"></i> <Link to={'rapor'}><span onClick={()=>setSidebar("Report")} >Report</span></Link> 
                     </div>
                 </div>
             
             <p>Manage</p>
                 <div className="manage">
-                    <div className='tool'>
+                    <div className={sidebar==="Teacher"? "tool active":"tool"}>
                     <i class="fa-solid fa-chalkboard-user"></i>
                         <Link to={'Teacher'}>
-                       <span >Teacher</span>
+                       <span onClick={()=>setSidebar("Teacher")}>Teacher</span>
                         </Link>
                     </div>
-                    <div className='tool'>
+                    <div className={sidebar==="Student"? "tool active":"tool"}>
                     <i class="fa-solid fa-user-graduate"></i>
                         <Link to={'Student'}>
-                        <span >Student</span>
+                        <span onClick={()=>setSidebar("Student")} >Student</span>
                         </Link>
                     </div>
-                    <div className='tool'>
+                    <div className={sidebar==="Subject"?"tool active":"tool"}>
                     <i class="fa-solid fa-book-open"></i>
                         <Link to={'subject'}>
-                       <span >Subject</span>
+                       <span onClick={()=>setSidebar("Subject")} >Subject</span>
                         </Link>
                     </div>
                 </div>
